@@ -210,4 +210,22 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/camera/SOI08BS3_IMX134.dat:system/vendor/camera/SOI08BS3_IMX134.dat \
     vendor/sony/huashan/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
     vendor/sony/huashan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/huashan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
+    vendor/sony/huashan/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+    vendor/sony/huashan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
+    vendor/sony/huashan/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
+    vendor/sony/huashan/proprietary/lib/hw/libdisplay.default.so:system/lib/hw/libdisplay.default.so \
+    vendor/sony/huashan/proprietary/lib/libexternal.so:system/lib/libexternal.so \
+    vendor/sony/huashan/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
+    vendor/sony/huashan/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/sony/huashan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/huashan/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
+    vendor/sony/huashan/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+    vendor/sony/huashan/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
+    vendor/sony/huashan/proprietary/lib/libqservice.so:system/lib/libqservice.so \
+    vendor/sony/huashan/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+    vendor/sony/huashan/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
+    vendor/sony/huashan/proprietary/lib/libvirtual.so:system/lib/libvirtual.so
+
+
