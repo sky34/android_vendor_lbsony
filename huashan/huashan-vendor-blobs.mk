@@ -226,6 +226,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/sony/huashan/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
     vendor/sony/huashan/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
-    vendor/sony/huashan/proprietary/lib/libvirtual.so:system/lib/libvirtual.so
+    vendor/sony/huashan/proprietary/lib/libvirtual.so:system/lib/libvirtual.so \
+    vendor/sony/huashan/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/sony/huashan/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/sony/huashan/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/sony/huashan/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/sony/huashan/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
+    vendor/sony/huashan/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/sony/huashan/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/sony/huashan/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/sony/huashan/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/sony/huashan/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/sony/huashan/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/sony/huashan/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/sony/huashan/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so
+
+
 
 
