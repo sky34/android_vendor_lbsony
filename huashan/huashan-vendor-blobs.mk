@@ -239,7 +239,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/sony/huashan/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/sony/huashan/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/sony/huashan/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so
+    vendor/sony/huashan/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/sony/huashan/proprietary/bin/radish:system/bin/radish \
+    vendor/sony/huashan/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
 
 
 
