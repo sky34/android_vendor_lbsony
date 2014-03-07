@@ -243,7 +243,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/radish:system/bin/radish \
     vendor/sony/huashan/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
+    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/sony/huashan/proprietary/bin/rild:system/bin/rild \
+    vendor/sony/huashan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/sony/huashan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/sony/huashan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/sony/huashan/proprietary/lib/libril.so:system/lib/libril.so
+
+
 
 
 
