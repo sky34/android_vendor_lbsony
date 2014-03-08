@@ -121,8 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/huashan/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/huashan/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
-    vendor/sony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/huashan/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
+    vendor/sony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/huashan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/huashan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/huashan/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -159,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/huashan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/huashan/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/huashan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/huashan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/huashan/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/huashan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -244,11 +243,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/sony/huashan/proprietary/bin/rild:system/bin/rild \
-    vendor/sony/huashan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/huashan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/sony/huashan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/sony/huashan/proprietary/lib/libril.so:system/lib/libril.so
+    vendor/sony/huashan/proprietary/lib/liblocationservice.so:system/lib/liblocationservice.so \
+    vendor/sony/huashan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/sony/huashan/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+    vendor/sony/huashan/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so
 
 
 
