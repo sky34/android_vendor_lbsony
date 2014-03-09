@@ -242,11 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/sony/huashan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/sony/huashan/proprietary/lib/liblocationservice.so:system/lib/liblocationservice.so \
-    vendor/sony/huashan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/sony/huashan/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/sony/huashan/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
     vendor/sony/huashan/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so
 
 
