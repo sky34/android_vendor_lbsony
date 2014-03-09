@@ -246,7 +246,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/liblocationservice.so:system/lib/liblocationservice.so \
     vendor/sony/huashan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/huashan/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/sony/huashan/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so
+    vendor/sony/huashan/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
+    vendor/sony/huashan/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so
+
 
 
 
