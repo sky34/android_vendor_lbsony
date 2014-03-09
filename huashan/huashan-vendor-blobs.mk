@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/huashan/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/huashan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/huashan/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/huashan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/huashan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/huashan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
