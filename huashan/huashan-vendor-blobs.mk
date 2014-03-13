@@ -22,10 +22,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/huashan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/huashan/proprietary/bin/illumination_service:system/bin/illumination_service \
+    vendor/sony/huashan/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/huashan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon\
+    vendor/sony/huashan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/huashan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/huashan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/huashan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/huashan/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/huashan/proprietary/bin/radish:system/bin/radish \
     vendor/sony/huashan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
@@ -36,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/sony/huashan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
@@ -121,15 +126,40 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/huashan/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/huashan/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
-    vendor/sony/huashan/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/huashan/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/huashan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/huashan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/sony/huashan/proprietary/lib/modules/adsprpc.ko:system/lib/modules/adsprpc.ko \
+    vendor/sony/huashan/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    vendor/sony/huashan/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
+    vendor/sony/huashan/proprietary/lib/modules/control_trace.ko:system/lib/modules/control_trace.ko \
+    vendor/sony/huashan/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+    vendor/sony/huashan/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
+    vendor/sony/huashan/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
+    vendor/sony/huashan/proprietary/lib/modules/hid-logitech-dj.ko:system/lib/modules/hid-logitech-dj.ko \
+    vendor/sony/huashan/proprietary/lib/modules/ks8851.ko:system/lib/modules/ks8851.ko \
+    vendor/sony/huashan/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
+    vendor/sony/huashan/proprietary/lib/modules/mcdrvmodule.ko:system/lib/modules/mcdrvmodule.ko \
+    vendor/sony/huashan/proprietary/lib/modules/mckernelapi.ko:system/lib/modules/mckernelapi.ko \
+    vendor/sony/huashan/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
+    vendor/sony/huashan/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    vendor/sony/huashan/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
+    vendor/sony/huashan/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+    vendor/sony/huashan/proprietary/lib/modules/qce40.ko:system/lib/modules/qce40.ko \
+    vendor/sony/huashan/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+    vendor/sony/huashan/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+    vendor/sony/huashan/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
+    vendor/sony/huashan/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+    vendor/sony/huashan/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/sony/huashan/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+    vendor/sony/huashan/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
+    vendor/sony/huashan/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
     vendor/sony/huashan/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/huashan/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/huashan/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
-    vendor/sony/huashan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/huashan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
+    vendor/sony/huashan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/huashan/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/huashan/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/huashan/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
@@ -142,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/huashan/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/huashan/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/sony/huashan/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/huashan/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/huashan/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/huashan/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -165,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/huashan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/huashan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/huashan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/huashan/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/huashan/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/sony/huashan/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/huashan/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -184,32 +215,36 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/sony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/huashan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/huashan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/huashan/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/sony/huashan/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/sony/huashan/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/sony/huashan/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-    vendor/sony/huashan/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
-    vendor/sony/huashan/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+    vendor/sony/huashan/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/sony/huashan/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/huashan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/huashan/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/huashan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/huashan/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
     vendor/sony/huashan/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
+    vendor/sony/huashan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SMC08BS2.dat:system/vendor/camera/SMC08BS2.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SMC08BS2_IMX134.dat:system/vendor/camera/SMC08BS2_IMX134.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SOI08BS2.dat:system/vendor/camera/SOI08BS2.dat \
-    vendor/sony/huashan/proprietary/vendor/camera/SOI08BS2.dat:system/vendor/camera/SOI08BS2.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SOI08BS2_BU64291.dat:system/vendor/camera/SOI08BS2_BU64291.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SOI08BS2_IMX134.dat:system/vendor/camera/SOI08BS2_IMX134.dat \
+    vendor/sony/huashan/proprietary/vendor/camera/SOI08BS3.dat:system/vendor/camera/SOI08BS3.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SOI08BS3_IMX134.dat:system/vendor/camera/SOI08BS3_IMX134.dat \
     vendor/sony/huashan/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
-    vendor/sony/huashan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/huashan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/huashan/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/huashan/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/sony/huashan/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
@@ -218,15 +253,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libexternal.so:system/lib/libexternal.so \
     vendor/sony/huashan/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
     vendor/sony/huashan/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/sony/huashan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/sony/huashan/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/huashan/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/sony/huashan/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/sony/huashan/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/sony/huashan/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
     vendor/sony/huashan/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
     vendor/sony/huashan/proprietary/lib/libvirtual.so:system/lib/libvirtual.so \
-    vendor/sony/huashan/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/sony/huashan/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/huashan/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/sony/huashan/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
@@ -239,15 +271,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/sony/huashan/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/sony/huashan/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-    vendor/sony/huashan/proprietary/bin/radish:system/bin/radish \
-    vendor/sony/huashan/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/sony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/sony/huashan/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so
-
-
-
-
-
-
-
+    vendor/sony/huashan/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so
