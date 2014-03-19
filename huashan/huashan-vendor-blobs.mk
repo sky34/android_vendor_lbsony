@@ -36,12 +36,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/huashan/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/huashan/proprietary/bin/thermald:system/bin/thermald \
+    vendor/sony/huashan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/huashan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/huashan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
+    vendor/sony/huashan/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
+    vendor/sony/huashan/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
+    vendor/sony/huashan/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b02:system/etc/firmware/dsps.b02 \
