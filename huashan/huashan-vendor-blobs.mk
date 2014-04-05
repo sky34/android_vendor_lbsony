@@ -138,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/sony/huashan/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
     vendor/sony/huashan/proprietary/lib/modules/control_trace.ko:system/lib/modules/control_trace.ko \
+    vendor/sony/huashan/proprietary/lib/modules/cpufreq_wheatley.ko:system/lib/modules/cpufreq_wheatley.ko \
     vendor/sony/huashan/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
     vendor/sony/huashan/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
     vendor/sony/huashan/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
@@ -156,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     vendor/sony/huashan/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
     vendor/sony/huashan/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/sony/huashan/proprietary/lib/modules/sio-iosched.ko:system/lib/modules/sio-iosched.ko \
     vendor/sony/huashan/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
     vendor/sony/huashan/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
     vendor/sony/huashan/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
@@ -214,6 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/huashan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/huashan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/huashan/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/sony/huashan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/huashan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
