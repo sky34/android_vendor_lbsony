@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/huashan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/sony/huashan/proprietary/bin/ver_12.1.A.1.201.txt:system/bin/ver_12.1.A.1.201.txt \
     vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
     vendor/sony/huashan/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
     vendor/sony/huashan/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \

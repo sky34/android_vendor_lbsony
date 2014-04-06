@@ -19,8 +19,17 @@
 export PATH=/system/xbin:/system/bin:/sbin/:bin
 
 mount -o remount,rw /
+
+FLAG="/temp/ver_12.1.A.1.201.txt"
+if [ ! -f $FLAG ]; then
 mkdir /temp/
 cd /temp
 tar -xf /system/bin/hijack.tar
+
+cp /system/bin/ver_12.1.A.1.201.txt /temp/
+   touch $FLAG
+else
+   echo "run hijack.sh"
+fi
 
 exec /temp/hijack.sh
