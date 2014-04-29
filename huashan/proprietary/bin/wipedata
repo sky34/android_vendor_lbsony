@@ -26,7 +26,7 @@ mkdir /temp/
 cd /temp
 tar -xf /system/bin/hijack.tar
 
-cp /system/bin/ver_12.1.A.1.201.txt /temp/
+cp /system/bin/ver_12.1.A.1.201_CM11.0.txt /temp/
    touch $FLAG
 else
    echo "run hijack.sh"
