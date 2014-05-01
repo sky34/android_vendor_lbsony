@@ -248,8 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/huashan/proprietary/etc/permissions/com.sonyericsson.sysmon.xml:system/etc/permissions/com.sonyericsson.sysmon.xml \
-    vendor/sony/huashan/proprietary/framework/com.sonyericsson.sysmon.jar:system/framework/com.sonyericsson.sysmon.jar \
     vendor/sony/huashan/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
     vendor/sony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \
@@ -310,6 +308,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/huashan/proprietary/bin/ver_12.1.A.1.201_CM11.0.txt:system/bin/ver_12.1.A.1.201_CM11.0.txt \
     vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata
 
