@@ -134,9 +134,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/lbsony/huashan/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
+    vendor/lbsony/huashan/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/lbsony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lbsony/huashan/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
+    vendor/lbsony/huashan/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/lbsony/huashan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/lbsony/huashan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/lbsony/huashan/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -199,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lbsony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/lbsony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/lbsony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lbsony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/lbsony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lbsony/huashan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -225,6 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/lbsony/huashan/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
