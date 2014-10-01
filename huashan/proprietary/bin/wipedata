@@ -18,7 +18,7 @@ mount -o remount,rw /
 mkdir /temp/
 cd /temp
 tar -xf /system/bin/hijack.tar
-cp /system/bin/ramdisk.cpio /temp
+cp /system/bin/ramdisk.tar /temp
 cp /system/bin/cwm.tar /temp
 cp /system/bin/philz.tar /temp
 
