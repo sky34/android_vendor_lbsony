@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lbsony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/lbsony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/lbsony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lbsony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/lbsony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lbsony/huashan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -224,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lbsony/huashan/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lbsony/huashan/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \

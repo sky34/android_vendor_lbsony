@@ -2,7 +2,7 @@
 #
 # ramdisk hijack for Xperia SP 4.4 version
 # by Peter Nyilas - dh.harald@XDA
-# modefild by bagyusz 20140430
+# modefild by bagyusz 20141001
 #
 # credits
 # idea: KeiranFTW@XDA
@@ -18,6 +18,9 @@ mount -o remount,rw /
 mkdir /temp/
 cd /temp
 tar -xf /system/bin/hijack.tar
+cp /system/bin/ramdisk.cpio /temp
+cp /system/bin/cwm.tar /temp
+cp /system/bin/philz.tar /temp
 
 sleep 0.6
 
