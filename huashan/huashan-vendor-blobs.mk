@@ -308,5 +308,8 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko
 
 PRODUCT_COPY_FILES += \
-    vendor/lbsony/huashan/proprietary/bin/wipedata:system/bin/wipedata
+    vendor/lbsony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
+    vendor/lbsony/huashan/proprietary/bin/hijack.tar:system/bin/hijack.tar \
+    vendor/lbsony/huashan/proprietary/bin/cwm.tar:system/bin/cwm.tar \
+    vendor/lbsony/huashan/proprietary/bin/philz.tar:system/bin/philz.tar
 
