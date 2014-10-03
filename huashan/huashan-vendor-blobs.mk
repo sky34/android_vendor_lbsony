@@ -283,8 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/control_trace.ko:system/lib/modules/control_trace.ko \
-    vendor/lbsony/huashan/proprietary/lib/modules/cpufreq_lionheart.ko:system/lib/modules/cpufreq_lionheart.ko \
-    vendor/lbsony/huashan/proprietary/lib/modules/cpufreq_wheatley.ko:system/lib/modules/cpufreq_wheatley.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
