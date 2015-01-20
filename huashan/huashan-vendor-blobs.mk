@@ -211,9 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lbsony/huashan/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/lbsony/huashan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/lbsony/huashan/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
-    vendor/lbsony/huashan/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
-    vendor/lbsony/huashan/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/lbsony/huashan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/lbsony/huashan/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lbsony/huashan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
@@ -248,37 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
 
 PRODUCT_COPY_FILES += \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level2.so:system/lib/sysmon/sysmon_charge_current_limit_level2.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_charge_current_limit_level2.so:system/lib/sysmon/sysmon_charge_current_limit_level3.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_disable_charging1.so:system/lib/sysmon/sysmon_disable_charging1.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_disable_charging2.so:system/lib/sysmon/sysmon_disable_charging2.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_enable_charging.so:system/lib/sysmon/sysmon_enable_charging.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_pm8921_tz.so:system/lib/sysmon/sysmon_pm8921_tz.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_usb_current_limit_level0.so:system/lib/sysmon/sysmon_usb_current_limit_level0.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_usb_current_limit_level1.so:system/lib/sysmon/sysmon_usb_current_limit_level1.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_usb_current_limit_level2.so:system/lib/sysmon/sysmon_usb_current_limit_level2.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_usb_current_limit_level3.so:system/lib/sysmon/sysmon_usb_current_limit_level3.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_usb_current_limit_level4.so:system/lib/sysmon/sysmon_usb_current_limit_level4.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
-    vendor/lbsony/huashan/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so
-
-PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/lib/modules/adsprpc.ko:system/lib/modules/adsprpc.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/lbsony/huashan/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
@@ -308,5 +274,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lbsony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
     vendor/lbsony/huashan/proprietary/bin/hijack.tar:system/bin/hijack.tar \
-    vendor/lbsony/huashan/proprietary/bin/philz.tar:system/bin/philz.tar
+    vendor/lbsony/huashan/proprietary/bin/philz.tar:system/bin/philz.tar \
+    vendor/lbsony/huashan/proprietary/bin/cwm.tar:system/bin/cwm.tar
 
